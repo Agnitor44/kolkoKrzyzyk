@@ -1,38 +1,65 @@
-.App {
+div.app {
+ position: relative;
+  margin: 0 10%;
+}
+
+div.kwadrat {
+  width: 25%;
+  height: 28vh;
+  background-color: #999;
+  border: black solid 2px;
+  margin: 2%;
+  transition: 0.3s;
+  float: left;
+}
+div.kwadrat:hover
+{
+  opacity: 0.8;
+
+}
+div.kolko {
+  background-color: green;
+  width: 25%;
+  height: 28vh;
+  
+  border: black solid 2px;
+  margin: 2%;
+  transition: 0.3s;
+  float: left;
+}
+div.krzyz {
+  background-color: red;
+  width: 25%;
+  height: 28vh;
+  
+  border: black solid 2px;
+  margin: 2%;
+  transition: 0.3s;
+  float: left;
+}
+
+h1 {
   text-align: center;
+  display: inline;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1.Kolko {
+  background-color: green;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1.Krzyzyk {
+  background-color: red;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  font-size: 14px;
+  width: 13%;
+  line-height: 7vh;
+  border: black solid 2px;
+  background-color: transparent;
+  font-weight: bold;
+  transition: 0.5s;
+  
+  
+}
+button:hover {
+  background-color: black;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
