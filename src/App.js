@@ -90,6 +90,7 @@ function App() {
     )
     setEnd(false)
     setWinner('')
+    setWho(true)
   }
 
   return (
